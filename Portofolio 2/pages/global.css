@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-dotgothic16: DotGothic16;
+  --font-montserrat: Montserrat;
+  --font-lora: Lora;
+
+  /* font sizes */
+  --font-size-base: 24px;
+  --font-size-lg: 64px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: rgba(0, 0, 0, 0.6);
+
+  /* Gaps */
+  --gap-md: 35px;
+
+  /* Paddings */
+  --padding-sm: 10px;
+  --padding-md: 20px;
+  --padding-lg: 25px;
+
+  /* border radiuses */
+  --br-md: 45px;
+}
